@@ -27,15 +27,15 @@ Display the total words in the file.
 ### OUTPUT:
 ```
 Developed by: RAKSHA DHARANIKA V
-Register no: 212223230167
+Register no: 212223230167,
 import sys
-count=0
-with open(sys.argv[1],'r') as f1:
-     for i in fp:
-        words=i.split()
-        count+=len(words)
-print("word count  in file is",count)
-
+fp=open(sys.argv[1])
+wordcount=0
+for i in fp:
+    words=i.split()
+    wordcount+=len(words)
+print("Total no of words in file is",wordcount)
+fp.close()
 ```
 
 ### OUTPUT:
