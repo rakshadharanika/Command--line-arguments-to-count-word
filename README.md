@@ -37,6 +37,7 @@ with open(sys.argv[1],'r') as f1:
 print("word count  in file is",count)
 
 ```
+
 ### OUTPUT:
 
 ![output](code.png)
